@@ -148,14 +148,3 @@ Additional project files may be present depending on your local version.
     `0.10.14` and Protobuf below version `5`, as specified in
     `requirements.txt`.
 
-## Future Improvements
-
-Potential areas for extension include more expressive avatar animations,
-additional avatar customization, improved tracking under different
-lighting conditions, and broader virtual-camera integration.
-
-## License
-
-Add your preferred license before making the repository public. If you
-have not selected one, no reuse or redistribution permissions should be
-assumed.
