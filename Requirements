@@ -1,0 +1,27 @@
+# Digital Avatar Design - Python dependencies
+# Python version: 3.9 to 3.12 (tested on Python 3.9.5, Windows 10/11)
+
+# Computer vision: webcam capture, drawing, image processing
+# (use the contrib build only - do NOT also install opencv-python)
+opencv-contrib-python==4.10.0.84
+
+# Numerical arrays and maths
+numpy==1.26.4
+
+# Face Mesh: 468 facial landmarks + 10 iris landmarks
+mediapipe==0.10.14
+
+# Required by MediaPipe 0.10.14 (newer versions are incompatible)
+protobuf>=4.25.3,<5
+
+
+"cd "D:\Digital Avatar Design"
+python -m venv venv
+.\venv\Scripts\python.exe -m pip install --upgrade pip
+.\venv\Scripts\python.exe -m pip install --no-compile -r requirements.txt
+
+# Optional virtual camera support
+.\venv\Scripts\python.exe -m pip install -r requirements-optional.txt
+
+# Run
+.\venv\Scripts\python.exe avatar.py"
